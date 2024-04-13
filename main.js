@@ -73,6 +73,80 @@ let  users  = [
     friends: null,
 },
 
+{
+    profilePic:"https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODN8fHBvcnRyYWl0fGVufDB8fDB8fHww",
+    displaypic: "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODN8fHBvcnRyYWl0fGVufDB8fDB8fHww",
+    pendingMessage:7,
+    location:"London, UK",
+    Fullname: "Susan ",
+    age:27,
+    interests:[{
+        icon:`<i class="ri-quill-pen-fill text-white"></i>`,
+        interest:"poetry",
+    },{
+        icon:`<i class="ri-music-2-fill text-white"></i>`,
+        interest:"music",
+    }],
+    bio: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis debitis nam voluptates? , nostrum!",
+    friends: null,
+},
+
+
+{
+    profilePic:"https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHBvcnRyYWl0fGVufDB8fDB8fHww",
+    displaypic: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHBvcnRyYWl0fGVufDB8fDB8fHww",
+    pendingMessage:7,
+    location:"kashmir, INDIA",
+    Fullname: "Malaika",
+    age:29,
+    interests:[{
+        icon:`<i class="ri-quill-pen-fill text-white"></i>`,
+        interest:"writing",
+    },{
+        icon:`<i class="ri-music-2-fill text-white"></i>`,
+        interest:"music",
+    }],
+    bio: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis debitis nam voluptates? , nostrum!",
+    friends: null,
+},
+
+{
+    profilePic:"https://images.unsplash.com/photo-1614204424926-196a80bf0be8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fHBvcnRyYWl0fGVufDB8fDB8fHww",
+    displaypic: "https://images.unsplash.com/photo-1614204424926-196a80bf0be8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fHBvcnRyYWl0fGVufDB8fDB8fHww",
+    pendingMessage:7,
+    location:"New York, USA",
+    Fullname: "Rachel",
+    age:25,
+    interests:[{
+        icon:`<i class="ri-quill-pen-fill text-white"></i>`,
+        interest:"writing",
+    },{
+        icon:`<i class="ri-music-2-fill text-white"></i>`,
+        interest:"music",
+    }],
+    bio: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis debitis nam voluptates? , nostrum!",
+    friends: null,
+},
+
+
+{
+    profilePic:"https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fHBvcnRyYWl0fGVufDB8fDB8fHww",
+    displaypic: "https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fHBvcnRyYWl0fGVufDB8fDB8fHww",
+    pendingMessage:7,
+    location:"Brooklyn, USA",
+    Fullname: "Rosa",
+    age:28,
+    interests:[{
+        icon:`<i class="ri-quill-pen-fill text-white"></i>`,
+        interest:"writing",
+    },{
+        icon:`<i class="ri-music-2-fill text-white"></i>`,
+        interest:"music",
+    }],
+    bio: "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis debitis nam voluptates? , nostrum!",
+    friends: null,
+},
+
 ];
 
 
@@ -112,7 +186,7 @@ function setData(index){
     
    setData(curr);
 
-    curr = 2;  
+    curr = 5;  
 })();
 
 function imagechange() {
